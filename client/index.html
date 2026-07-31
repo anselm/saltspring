@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+  <title data-island-title>An island — a living portrait</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏝️</text></svg>" />
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <div id="app">
+    <canvas id="scene"></canvas>
+    <div id="cards"></div>
+    <div id="hud">
+      <div id="hud-top">
+        <div id="title">
+          <h1 data-island-name>…</h1>
+          <div id="clock"></div>
+          <div id="weather"></div>
+        </div>
+        <div id="audio-controls"></div>
+      </div>
+      <div id="left-rail">
+        <input id="search" type="search" placeholder="search…" autocomplete="off" />
+        <div id="legend"></div>
+      </div>
+      <div id="footer-links">
+        <button id="about-link">about</button>
+        <a href="https://github.com/orbitalfoundation/cortes-island" target="_blank" rel="noopener">source</a>
+        <a href="https://github.com/orbitalfoundation" target="_blank" rel="noopener">orbital foundation</a>
+      </div>
+    </div>
+    <div id="life-markers"></div>
+    <div id="zoom-controls">
+      <button id="zoom-in" aria-label="zoom in">+</button>
+      <button id="zoom-out" aria-label="zoom out">−</button>
+    </div>
+    <div id="about" class="hidden">
+      <div id="about-panel">
+        <button class="close" aria-label="close">×</button>
+        <h2 data-island-about>A living portrait</h2>
+        <p class="about-lede">This is an experiment in making a place legible: one island, its
+        news, wildlife, weather, tides, history and lore, gathered into a single view you can
+        fly around. It is also, deliberately, an experiment in asking whether that is a good
+        idea.</p>
+
+        <h3>Where the data comes from</h3>
+        <p data-island-feeds>Live feeds: local and regional news, community posts, iNaturalist wildlife observations, Wikipedia and OSM landmarks, Wikimedia Commons and Openverse photography, Mastodon, Flickr and Reddit — geolocated, deduped and scored, refreshed on a schedule.</p>
+        <p>Curated layers: territory acknowledgment and cultural anchors; an "island almanac"
+        of dated places and events; deep cuts of history, chart lore and marine hazards; and
+        habitat spots. Much of this was mined from a frontier language model's world knowledge,
+        then hand-reviewed — every such item is labeled, carries a confidence flag
+        (documented / reported / oral tradition / legend), and lives in
+        <a href="https://github.com/orbitalfoundation/cortes-island/tree/main/data" target="_blank" rel="noopener">versioned files anyone can correct</a>.</p>
+
+        <h3>Should an island be transparent?</h3>
+        
+        <p>There is also a counter-tradition this project tries to stand in: social
+        cartography and counter-mapping — communities mapping themselves, on their own terms,
+        to hold ground rather than lose it. Indigenous nations have led here, from
+        counter-maps asserting title to the First Nations principles of
+        <a href="https://fnigc.ca/ocap-training/" target="_blank" rel="noopener">OCAP®</a>
+        (ownership, control, access, possession) and the
+        <a href="https://www.gida-global.org/care" target="_blank" rel="noopener">CARE principles</a>
+        for Indigenous data governance: collective benefit, authority to control, responsibility,
+        ethics. The lesson generalizes: data about a place belongs, first, to the people who
+        live it.</p>
+        <p>Our working answers, imperfect and revisable: use only public or freely licensed
+        sources; link everything to its origin; label speculation and lore as such; treat
+        culturally sensitive sites with care (some things are named but deliberately not
+        precisely located); keep the whole pipeline open source so the portrait can be
+        audited, corrected, or forked by the people portrayed. What this project does not yet
+        have — and what would matter most — is genuine participation: islanders, and the
+        Klahoose, Tla'amin and Homalco nations whose territory this is, deciding what belongs
+        here, contributing their own layers, and owning the result. Transparency without
+        consent is extraction; transparency with stewardship might be memory.</p>
+        <p>If you live here and want something added, corrected, or removed —
+        <a href="https://github.com/orbitalfoundation/cortes-island/issues" target="_blank" rel="noopener">the door is open</a>.</p>
+      </div>
+    </div>
+    <div id="detail" class="hidden"></div>
+    <div id="loading"><div class="pulse"></div><span data-island-arriving>arriving…</span></div>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

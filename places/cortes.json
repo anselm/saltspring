@@ -1,0 +1,312 @@
+{
+ "id": "cortes",
+ "island": {
+  "name": "Cortes Island",
+  "region": "BC, Canada",
+  "lat": 50.062,
+  "lon": -124.968,
+  "bbox": {
+   "south": 49.93,
+   "west": -125.13,
+   "north": 50.21,
+   "east": -124.84
+  }
+ },
+ "search": {
+  "quoted": "Cortes Island",
+  "match": "cortes|klahoose",
+  "hashtags": [
+   "cortesisland"
+  ],
+  "looseHashtags": [
+   [
+    "cortes",
+    "cortes island|#cortesisland"
+   ]
+  ],
+  "flickrTags": "cortesisland",
+  "redditQuery": "\"cortes island\""
+ },
+ "osmIslands": [
+  {
+   "name": "Cortes Island",
+   "id": 2143895
+  },
+  {
+   "name": "Marina Island",
+   "query": "way[\"place\"=\"island\"][\"name\"=\"Marina Island\"](49.9,-125.2,50.2,-124.8)"
+  },
+  {
+   "name": "Hernando Island",
+   "query": "way[\"place\"=\"island\"][\"name\"=\"Hernando Island\"](49.9,-125.2,50.2,-124.8)"
+  },
+  {
+   "name": "Twin Islands",
+   "query": "wr[\"place\"~\"island\"][\"name\"~\"Twin Island\"](49.9,-125.1,50.1,-124.8)"
+  },
+  {
+   "name": "Mitlenatch Island",
+   "query": "way[\"name\"=\"Mitlenatch Island\"](49.9,-125.1,50.0,-124.9)"
+  }
+ ],
+ "feeds": [
+  {
+   "url": "https://news.google.com/rss/search?q=%22Cortes%20Island%22&hl=en-CA&gl=CA&ceid=CA:en",
+   "name": "google-news",
+   "category": "news"
+  },
+  {
+   "url": "https://cortescurrents.ca/feed/",
+   "name": "cortes-currents",
+   "category": "news"
+  },
+  {
+   "url": "https://www.campbellrivermirror.com/feed/",
+   "name": "cr-mirror",
+   "category": "news",
+   "filter": "cortes"
+  },
+  {
+   "url": "https://vanisle.news/feed/",
+   "name": "vanisle",
+   "category": "news",
+   "filter": "cortes|klahoose|quadra.+cortes"
+  }
+ ],
+ "trust": {
+  "rss:cortes-currents": 0.75,
+  "rss:google-news": 0.65,
+  "rss:cr-mirror": 0.6
+ },
+ "ferries": [
+  {
+   "name": "Heriot Bay ↔ Whaletown",
+   "route": [
+    [
+     50.1058,
+     -125.2153
+    ],
+    [
+     50.098,
+     -125.175
+    ],
+    [
+     50.093,
+     -125.12
+    ],
+    [
+     50.096,
+     -125.08
+    ],
+    [
+     50.1036,
+     -125.0521
+    ]
+   ],
+   "departA": [
+    "08:05",
+    "10:15",
+    "12:35",
+    "15:05",
+    "17:25",
+    "19:35"
+   ],
+   "departB": [
+    "07:05",
+    "09:10",
+    "11:25",
+    "13:50",
+    "16:15",
+    "18:30"
+   ],
+   "crossingMinutes": 45
+  }
+ ],
+ "radioName": "CKTZ 89.5 — Cortes Community Radio",
+ "radioStream": "https://s5.voscast.com:8219/stream.mp3",
+ "landAnchors": [
+  "Mansons Landing",
+  "Whaletown",
+  "Squirrel Cove",
+  "Smelt Bay",
+  "Cortes Bay",
+  "Gorge Harbour",
+  "Hollyhock",
+  "Linnaea Farm",
+  "Cortes Island School"
+ ],
+ "places": [
+  {
+   "name": "Mansons Landing",
+   "lat": 50.0667,
+   "lon": -124.9833,
+   "aliases": [
+    "manson's landing",
+    "mansons"
+   ]
+  },
+  {
+   "name": "Whaletown",
+   "lat": 50.1036,
+   "lon": -125.0521,
+   "aliases": [
+    "whaletown bay"
+   ]
+  },
+  {
+   "name": "Squirrel Cove",
+   "lat": 50.1187,
+   "lon": -124.9202,
+   "aliases": [
+    "klahoose",
+    "tork",
+    "t'ork"
+   ]
+  },
+  {
+   "name": "Smelt Bay",
+   "lat": 50.0322,
+   "lon": -124.9942,
+   "aliases": [
+    "smelt bay provincial park"
+   ]
+  },
+  {
+   "name": "Cortes Bay",
+   "lat": 50.0623,
+   "lon": -124.9268,
+   "aliases": []
+  },
+  {
+   "name": "Gorge Harbour",
+   "lat": 50.0938,
+   "lon": -125.0173,
+   "aliases": [
+    "gorge harbor",
+    "the gorge"
+   ]
+  },
+  {
+   "name": "Hollyhock",
+   "lat": 50.0343,
+   "lon": -124.9761,
+   "aliases": [
+    "hollyhock retreat"
+   ]
+  },
+  {
+   "name": "Von Donop Inlet",
+   "lat": 50.1572,
+   "lon": -124.9553,
+   "aliases": [
+    "von donop",
+    "háthayim",
+    "hathayim"
+   ]
+  },
+  {
+   "name": "Carrington Bay",
+   "lat": 50.1441,
+   "lon": -125.0078,
+   "aliases": []
+  },
+  {
+   "name": "Hague Lake",
+   "lat": 50.0561,
+   "lon": -124.9664,
+   "aliases": []
+  },
+  {
+   "name": "Gunflint Lake",
+   "lat": 50.0629,
+   "lon": -124.9557,
+   "aliases": []
+  },
+  {
+   "name": "Cortes Island School",
+   "lat": 50.0561,
+   "lon": -124.9797,
+   "aliases": [
+    "cortes school"
+   ]
+  },
+  {
+   "name": "Linnaea Farm",
+   "lat": 50.0655,
+   "lon": -124.9548,
+   "aliases": [
+    "linnaea"
+   ]
+  },
+  {
+   "name": "Tiber Bay",
+   "lat": 50.0751,
+   "lon": -124.9047,
+   "aliases": []
+  },
+  {
+   "name": "Sutil Point",
+   "lat": 50.0211,
+   "lon": -124.9793,
+   "aliases": [
+    "sutil"
+   ]
+  },
+  {
+   "name": "Bullock Bluff",
+   "lat": 50.1761,
+   "lon": -124.9724,
+   "aliases": []
+  },
+  {
+   "name": "Twin Islands",
+   "lat": 50.0292,
+   "lon": -124.9311,
+   "aliases": []
+  },
+  {
+   "name": "Marina Island",
+   "lat": 50.0602,
+   "lon": -125.0409,
+   "aliases": [
+    "shark spit"
+   ]
+  },
+  {
+   "name": "Hernando Island",
+   "lat": 49.9855,
+   "lon": -124.9339,
+   "aliases": [
+    "hernando"
+   ]
+  },
+  {
+   "name": "Mitlenatch Island",
+   "lat": 49.9506,
+   "lon": -125.0025,
+   "aliases": [
+    "mitlenatch"
+   ]
+  },
+  {
+   "name": "Heriot Bay",
+   "lat": 50.1058,
+   "lon": -125.2153,
+   "aliases": [
+    "heriot bay ferry"
+   ]
+  },
+  {
+   "name": "Refuge Cove",
+   "lat": 50.1236,
+   "lon": -124.8422,
+   "aliases": []
+  },
+  {
+   "name": "Read Island",
+   "lat": 50.19,
+   "lon": -125.085,
+   "aliases": []
+  }
+ ]
+}

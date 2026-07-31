@@ -1,0 +1,493 @@
+{
+ "id": "saltspring",
+ "island": {
+  "name": "Salt Spring Island",
+  "region": "BC, Canada",
+  "lat": 48.82,
+  "lon": -123.5,
+  "bbox": {
+   "south": 48.66,
+   "west": -123.66,
+   "north": 48.94,
+   "east": -123.33
+  }
+ },
+ "search": {
+  "quoted": "Salt Spring Island",
+  "match": "salt ?spring|saltspring|ganges",
+  "hashtags": [
+   "saltspringisland",
+   "saltspring"
+  ],
+  "looseHashtags": [
+   [
+    "saltspring",
+    "salt ?spring"
+   ]
+  ],
+  "flickrTags": "saltspringisland",
+  "redditQuery": "\"salt spring island\""
+ },
+ "osmIslands": [
+  {
+   "name": "Salt Spring Island",
+   "id": 1019863
+  },
+  {
+   "name": "Prevost Island"
+  },
+  {
+   "name": "Wallace Island"
+  },
+  {
+   "name": "Portland Island"
+  },
+  {
+   "name": "Piers Island"
+  }
+ ],
+ "feeds": [
+  {
+   "url": "https://news.google.com/rss/search?q=%22Salt%20Spring%20Island%22&hl=en-CA&gl=CA&ceid=CA:en",
+   "name": "google-news",
+   "category": "news"
+  },
+  {
+   "url": "https://www.gulfislandsdriftwood.com/feed/",
+   "name": "driftwood",
+   "category": "news"
+  },
+  {
+   "url": "https://saltspringexchange.com/feed/",
+   "name": "ss-exchange",
+   "category": "community"
+  },
+  {
+   "url": "https://www.timescolonist.com/rss",
+   "name": "times-colonist",
+   "category": "news",
+   "filter": "salt ?spring|gulf islands|ganges"
+  },
+  {
+   "url": "https://www.cheknews.ca/feed/",
+   "name": "chek",
+   "category": "news",
+   "filter": "salt ?spring|gulf islands"
+  }
+ ],
+ "trust": {
+  "rss:driftwood": 0.78,
+  "rss:ss-exchange": 0.7,
+  "rss:google-news": 0.65,
+  "rss:times-colonist": 0.6
+ },
+ "tideStation": null,
+ "ferries": [
+  {
+   "name": "Fulford Harbour ↔ Swartz Bay",
+   "route": [
+    [
+     48.7686,
+     -123.4506
+    ],
+    [
+     48.75,
+     -123.42
+    ],
+    [
+     48.725,
+     -123.4
+    ],
+    [
+     48.7,
+     -123.4
+    ],
+    [
+     48.6889,
+     -123.4103
+    ]
+   ],
+   "departA": [
+    "06:15",
+    "08:05",
+    "10:00",
+    "12:00",
+    "14:00",
+    "16:00",
+    "18:05",
+    "20:05"
+   ],
+   "departB": [
+    "07:10",
+    "09:00",
+    "11:00",
+    "13:00",
+    "15:00",
+    "17:00",
+    "19:05",
+    "21:00"
+   ],
+   "crossingMinutes": 35
+  },
+  {
+   "name": "Vesuvius ↔ Crofton",
+   "route": [
+    [
+     48.8797,
+     -123.5722
+    ],
+    [
+     48.875,
+     -123.59
+    ],
+    [
+     48.87,
+     -123.615
+    ],
+    [
+     48.8656,
+     -123.6417
+    ]
+   ],
+   "departA": [
+    "07:00",
+    "09:00",
+    "11:00",
+    "13:00",
+    "15:00",
+    "17:00",
+    "19:00",
+    "21:00"
+   ],
+   "departB": [
+    "07:30",
+    "09:30",
+    "11:30",
+    "13:30",
+    "15:30",
+    "17:30",
+    "19:30",
+    "21:30"
+   ],
+   "crossingMinutes": 25
+  }
+ ],
+ "radioName": "CFSI 107.9 — Salt Spring Island Radio",
+ "radioStream": "https://cfsi.streamon.fm/listen-64-aac.pls",
+ "landAnchors": [
+  "Ganges",
+  "Fulford Harbour",
+  "Vesuvius Bay",
+  "Fernwood",
+  "Ruckle Provincial Park",
+  "Mount Maxwell",
+  "Burgoyne Bay",
+  "Beddis Beach"
+ ],
+ "settlements": [
+  [
+   "Ganges",
+   16,
+   600
+  ],
+  [
+   "Fulford Harbour",
+   8,
+   380
+  ],
+  [
+   "Vesuvius Bay",
+   7,
+   320
+  ],
+  [
+   "Fernwood",
+   5,
+   300
+  ],
+  [
+   "Beddis Beach",
+   4,
+   260
+  ],
+  [
+   "Long Harbour",
+   5,
+   320
+  ]
+ ],
+ "islets": [
+  [
+   48.7089,
+   -123.3969,
+   700,
+   "Portland Island"
+  ],
+  [
+   48.8025,
+   -123.4056,
+   900,
+   "Prevost Island"
+  ],
+  [
+   48.9364,
+   -123.5478,
+   700,
+   "Wallace Island"
+  ]
+ ],
+ "places": [
+  {
+   "name": "Ganges",
+   "lat": 48.8542,
+   "lon": -123.4983,
+   "aliases": [
+    "ganges harbour",
+    "ganges village",
+    "centennial park"
+   ]
+  },
+  {
+   "name": "Fulford Harbour",
+   "lat": 48.7686,
+   "lon": -123.4506,
+   "aliases": [
+    "fulford",
+    "fulford ferry"
+   ]
+  },
+  {
+   "name": "Vesuvius Bay",
+   "lat": 48.8797,
+   "lon": -123.5722,
+   "aliases": [
+    "vesuvius"
+   ]
+  },
+  {
+   "name": "Long Harbour",
+   "lat": 48.8531,
+   "lon": -123.4472,
+   "aliases": [
+    "long harbour ferry"
+   ]
+  },
+  {
+   "name": "Fernwood",
+   "lat": 48.9033,
+   "lon": -123.5178,
+   "aliases": [
+    "fernwood dock",
+    "fernwood road"
+   ]
+  },
+  {
+   "name": "Mount Maxwell",
+   "lat": 48.8092,
+   "lon": -123.5364,
+   "aliases": [
+    "baynes peak",
+    "mt maxwell",
+    "maxwell park"
+   ]
+  },
+  {
+   "name": "Mount Erskine",
+   "lat": 48.8483,
+   "lon": -123.5511,
+   "aliases": [
+    "erskine"
+   ]
+  },
+  {
+   "name": "Mount Tuam",
+   "lat": 48.7444,
+   "lon": -123.4886,
+   "aliases": [
+    "tuam"
+   ]
+  },
+  {
+   "name": "Ruckle Provincial Park",
+   "lat": 48.7739,
+   "lon": -123.3853,
+   "aliases": [
+    "ruckle park",
+    "ruckle farm",
+    "beaver point"
+   ]
+  },
+  {
+   "name": "Burgoyne Bay",
+   "lat": 48.8006,
+   "lon": -123.5333,
+   "aliases": [
+    "burgoyne",
+    "burgoyne bay park"
+   ]
+  },
+  {
+   "name": "St. Mary Lake",
+   "lat": 48.8797,
+   "lon": -123.525,
+   "aliases": [
+    "st mary lake",
+    "saint mary lake"
+   ]
+  },
+  {
+   "name": "Cusheon Lake",
+   "lat": 48.8125,
+   "lon": -123.4794,
+   "aliases": [
+    "cusheon"
+   ]
+  },
+  {
+   "name": "Weston Lake",
+   "lat": 48.7897,
+   "lon": -123.4644,
+   "aliases": []
+  },
+  {
+   "name": "Beddis Beach",
+   "lat": 48.8194,
+   "lon": -123.4536,
+   "aliases": [
+    "beddis"
+   ]
+  },
+  {
+   "name": "Southey Point",
+   "lat": 48.9333,
+   "lon": -123.5583,
+   "aliases": [
+    "southey"
+   ]
+  },
+  {
+   "name": "Booth Bay",
+   "lat": 48.8664,
+   "lon": -123.5342,
+   "aliases": [
+    "booth canal"
+   ]
+  },
+  {
+   "name": "Walker Hook",
+   "lat": 48.8931,
+   "lon": -123.4964,
+   "aliases": [
+    "walkers hook"
+   ]
+  },
+  {
+   "name": "Musgrave Landing",
+   "lat": 48.7469,
+   "lon": -123.5203,
+   "aliases": [
+    "musgrave"
+   ]
+  },
+  {
+   "name": "Isabella Point",
+   "lat": 48.7431,
+   "lon": -123.4611,
+   "aliases": [
+    "isabella"
+   ]
+  },
+  {
+   "name": "Salt Spring Island Public Library",
+   "lat": 48.8544,
+   "lon": -123.4986,
+   "aliases": [
+    "ssi library"
+   ]
+  },
+  {
+   "name": "Salt Spring Saturday Market",
+   "lat": 48.8547,
+   "lon": -123.4972,
+   "aliases": [
+    "saturday market",
+    "market in the park",
+    "centennial park market"
+   ]
+  },
+  {
+   "name": "Gulf Islands Secondary School",
+   "lat": 48.8489,
+   "lon": -123.5031,
+   "aliases": [
+    "giss",
+    "gulf islands secondary"
+   ]
+  },
+  {
+   "name": "Salt Spring Island Cheese",
+   "lat": 48.7797,
+   "lon": -123.47,
+   "aliases": [
+    "ssi cheese"
+   ]
+  },
+  {
+   "name": "Ganges Harbour",
+   "lat": 48.8494,
+   "lon": -123.4894,
+   "aliases": [
+    "harbour walk",
+    "grace islet"
+   ]
+  },
+  {
+   "name": "Channel Ridge",
+   "lat": 48.8794,
+   "lon": -123.5478,
+   "aliases": []
+  },
+  {
+   "name": "Wallace Island",
+   "lat": 48.9364,
+   "lon": -123.5478,
+   "aliases": [
+    "wallace island marine park",
+    "conover cove"
+   ]
+  },
+  {
+   "name": "Prevost Island",
+   "lat": 48.8025,
+   "lon": -123.4056,
+   "aliases": [
+    "prevost"
+   ]
+  },
+  {
+   "name": "Portland Island",
+   "lat": 48.7089,
+   "lon": -123.3969,
+   "aliases": [
+    "princess margaret",
+    "portland island marine park"
+   ]
+  },
+  {
+   "name": "Swartz Bay",
+   "lat": 48.6889,
+   "lon": -123.4103,
+   "aliases": [
+    "swartz bay ferry terminal"
+   ]
+  },
+  {
+   "name": "Crofton",
+   "lat": 48.8656,
+   "lon": -123.6417,
+   "aliases": [
+    "crofton ferry"
+   ]
+  }
+ ]
+}
