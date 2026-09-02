@@ -1,0 +1,7 @@
+name = "saltspring"
+horizon = "2026"
+repo = "anselm/saltspring"
+code = "local"
+deploy = "exe:saltspring"
+autodeploy = false
+notes = ""
